@@ -5,12 +5,12 @@ const sobrenome = document.getElementById("sobrenome")
 const email = document.getElementById("email")
 const senha = document.getElementById("senha")
 
-if(nome.value == ""){
+if(nome.value.trim() == ""){
     window.alert("O campo nome está vazio!")
     return
 }
 
-if(sobrenome.value == ""){
+if(sobrenome.value.trim() == ""){
     window.alert("O campo sobrenome está vazio!")
     return
 }
